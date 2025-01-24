@@ -1,4 +1,4 @@
-# Fintech-LSI
+![pipeline-diagram copy](https://github.com/user-attachments/assets/e1c32922-3e2a-4b40-9ec1-1f32d7bf5d2c)# Fintech-LSI
 
 Welcome to Fintech-LSI, a comprehensive financial technology platform that provides advanced tools and services for financial analysis, risk assessment, and market predictions.
 
@@ -22,9 +22,9 @@ Our platform consists of several key components:
 Our tech stack includes:
 
 - **Frontend**: TypeScript, Angular
-- **Backend**: Java, Spring Cloud
-- **Data Science**: Jupyter Notebook
-- **DevOps**: Jenkins, Maven, Docker, SonarQube
+- **Backend**: SpringBoot, Spring Cloud
+- **Data Science**: Jupyter Notebook, Flask
+- **DevOps**: Jenkins, Docker, Kubernetes
 - **Monitoring**: Grafana, Prometheus
 
 ## 🚀 Getting Started
@@ -45,6 +45,73 @@ Our tech stack includes:
 - Centralized configuration management
 - Modern web interface for financial management
 - Microservices architecture for scalability
+
+## 🧩 DevOps Pipelines
+
+### Front-end Pipeline
+
+The front-end pipeline uses Jenkins as the CI/CD tool. It includes the following stages:
+
+1. Checkout code from Git repository
+
+2. Install Node.js dependencies
+
+3. Build Angular application
+
+4. Execute static code analysis with SonarQube
+
+5. Create Docker image
+
+6. Push Docker image to ECR
+
+7. Deploy to EKS cluster
+
+![frontend drawio](https://github.com/user-attachments/assets/79427a30-0495-4e7a-be55-7a8446867d7b)
+
+
+### Backend Pipeline  
+
+The backend pipeline also uses Jenkins. Key stages:
+
+1. Checkout code 
+
+2. Run Maven build
+
+3. Execute static code analysis with SonarQube
+
+4. Build Docker image
+
+5. Push image to ECR
+
+6. Deploy to EKS cluster
+
+![pipeline-diagram copy](https://github.com/user-attachments/assets/00eeb718-17c5-4381-85d6-847264a53ca2)
+
+
+## 🗺️ AWS Architecture
+
+The application is deployed on AWS, leveraging services like:
+
+- VPC for network isolation
+
+- RDS for POSTGRESQL and MYSQL databases
+
+- EC2 for hosting the microservices
+
+- EKS for container orchestration
+
+- ECR for Docker image storage
+
+- CloudWatch and Prometheus for monitoring
+
+![WhatsApp Image 2025-01-21 at 15 52 10](https://github.com/user-attachments/assets/bef98c59-4a9b-452c-a86b-8e837ad695e0)
+
+
+## 🎨 Front-end UI
+
+The fintech-web-client component provides a modern, feature-rich web interface built with Angular. Key UI elements include:
+
+
 
 ## 👥 Team
 
