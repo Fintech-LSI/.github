@@ -111,6 +111,9 @@ The application is deployed on AWS, leveraging services like:
 The fintech-web-client component provides a modern, feature-rich web interface built with Angular. Key UI elements include:
 
 
+![Uploading photo-collage.png (1).png…]()
+
+
 
 ## 👥 Team
 
