@@ -1,4 +1,3 @@
-![pipeline-diagram copy](https://github.com/user-attachments/assets/e1c32922-3e2a-4b40-9ec1-1f32d7bf5d2c)# Fintech-LSI
 
 Welcome to Fintech-LSI, a comprehensive financial technology platform that provides advanced tools and services for financial analysis, risk assessment, and market predictions.
 
