@@ -46,8 +46,7 @@ Our tech stack includes:
 - Modern web interface for financial management
 - Microservices architecture for scalability
 
-
-  ## 👥 Team
+## 👥 Team
 
 | Avatar                                                                                                  | Name | Role | GitHub |
 |---------------------------------------------------------------------------------------------------------|------|------|--------|
