@@ -1,5 +1,5 @@
 
-# 🏦 Fintech-LSI
+# 🏦 FintechPro
 
 <div align="center"><img width="200" alt="Screenshot 2025-01-24 at 23 00 51" src="https://github.com/user-attachments/assets/90bd6329-f10c-4541-a430-338e1ec0c99e" /></div>
 
