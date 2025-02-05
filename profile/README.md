@@ -14,12 +14,18 @@ Fintech-LSI is an organization dedicated to building robust, scalable financial 
 
 Our platform consists of several key components:
 
+- **Config-server**: Spring Cloud Config Server for centralized configuration management of our fintech microservices ecosystem
+- **Discovery**: Service discovery component using Eureka Netflix server for microservices communication
+- **Gateway-service**: Spring Cloud Gateway service that acts as a central entry point for our fintech microservices ecosystem, providing routing, filtering, and cross-cutting concerns management
+- **user-service**: Handles user authentication, authorization, and profile management
+- **wallet-service**: Spring Boot microservice for managing digital wallets and currency transactions in our fintech ecosystem
+- **notification-service**: Spring Boot microservice designed to manage notifications within the fintech ecosystem
+- **transaction-service**: Processes and manages financial transactions across the platform
+- **fintech-web-client**: Modern Angular-based web application providing comprehensive financial services management with features for managing currencies, stocks, loans, and digital wallets
 - **fintech-infrastructure**: Core infrastructure components for our fintech ecosystem
 - **fintech-monitoring**: Centralized monitoring stack leveraging Grafana & Prometheus for reliability tracking
 - **fintech-credit-risk-prediction**: ML model for credit risk assessment using borrower information
 - **fintech-market-prediction**: Market prediction and analysis tools
-- **fintech-web-client**: Modern Angular-based web application for financial services management
-- **Config-server**: Spring Cloud Config Server for centralized configuration management
 
 ## 💻 Technologies
 
