@@ -1,6 +1,3 @@
-
-# 🏦 FintechPro
-
 <div align="center">
 
 # <span style="font-size: 3em;">🏦 FintechPro</span>
